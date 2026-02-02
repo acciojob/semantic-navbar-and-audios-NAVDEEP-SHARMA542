@@ -2,36 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Accessible Portfolio</title>
+    <title>Semantic Navbar and Audio Example</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    
-    <!-- Navigation Bar -->
     <nav role="navigation">
-        <ul>
+        <ul role="list">
             <li role="listitem"><a href="#home">Home</a></li>
             <li role="listitem"><a href="#about">About</a></li>
-            <li role="listitem"><a href="#contact">Contact</a></li>
+            <li role="listitem"><a href="#services">Services</a></li>
         </ul>
     </nav>
-    
-    <!-- Audio Section -->
-    <h2>3 Random Audios</h2>
-    <audio controls>
-        <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
 
+      <h2>3 random audios</h2>
     <audio controls>
-        <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+        <source src= "http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
-
-    <audio controls>
-        <source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
+    <audio controls><source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">Your browser does not support the audio element.</audio>
+    <audio controls><source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.</audio>
 </body>
 </html>
